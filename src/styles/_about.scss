@@ -1,0 +1,22 @@
+.about_main_container {
+    border: dashed red 2px;
+    @include vertical_center;
+    margin: 100px auto 0px auto;
+    max-width: 900px;
+    text-align: center;
+    .about_div_container_h1_p {
+        padding: 1em;
+    }
+    & h1 {
+        letter-spacing: 1em;
+        padding: 1em;
+    }
+    & p {
+        letter-spacing: 0.2em;
+        line-height: 2em;
+    }
+    & img {
+        background-image: url("../assets/images/body-background.jpg");
+    }
+    
+}

@@ -1,0 +1,17 @@
+.home_main_container {
+    display: flex;
+    flex-direction: column;
+    border: dashed red 2px;
+    @include vertical_center;
+    margin: 100px auto 0px auto;
+    max-width: 900px;
+    text-align: center;
+    padding: 1em;
+  
+    .home_h1 {
+         letter-spacing: 1em;
+         line-height: 2em;
+        
+    }
+   
+}
