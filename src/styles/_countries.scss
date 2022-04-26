@@ -1,5 +1,15 @@
 .countries_container_div {
     border: dashed black 2px;
-    max-width: 900px;
+    max-width: 1200px;
     width: 100%;
+    .countries_container_Card {
+        border: dashed black 2px;
+        & ul {
+        border: dashed black 2px;
+          display: flex;
+          justify-content: space-between;
+          row-gap: 2em;
+          flex-wrap: wrap;
+        }
+    }
 }
