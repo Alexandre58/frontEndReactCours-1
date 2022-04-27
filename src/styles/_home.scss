@@ -1,17 +1,22 @@
 .home_main_container {
     display: flex;
     flex-direction: column;
-    border: dashed red 2px;
+   // border: dashed red 2px;
     @include vertical_center;
+    
     margin: 100px auto 0px auto;
-    max-width: 1200px;
+    max-width: 1300px;
     text-align: center;
-    padding: 1em;
+    padding: 0.5em;
   
     .home_h1 {
-         letter-spacing: 1em;
-         line-height: 2em;
+         letter-spacing: 1.2em;
+         line-height: 0.5em;
+         text-shadow: 0px 0px 20px #050201;
+         color: white;
+         font-size: 1em;
         
     }
+   
    
 }

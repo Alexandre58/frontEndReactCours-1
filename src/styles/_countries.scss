@@ -1,15 +1,41 @@
 .countries_container_div {
-    border: dashed black 2px;
-    max-width: 1200px;
-    width: 100%;
-    .countries_container_Card {
-        border: dashed black 2px;
-        & ul {
-        border: dashed black 2px;
-          display: flex;
-          justify-content: space-between;
-          row-gap: 2em;
-          flex-wrap: wrap;
-        }
+  // border: dashed black 2px;
+  max-width: 1300px;
+  width: 100%;
+  margin-top: 10px;
+  & h1 {
+    color: $color_text;
+    text-shadow: 0px 0px 20px #050201;
+    margin: auto;
+    color: white;
+  }
+  & h2 {
+    font-size: 1em;
+  }
+  .countries_container_Card {
+    //   border: dashed black 2px;
+    & ul {
+      // border: dashed black 2px;
+      display: flex;
+      justify-content: space-between;
+      row-gap: 2em;
+      column-gap: 1em;
+      flex-wrap: wrap;
     }
+    .checkedRadio_container {
+      // border: 1px dashed black;
+      position: fixed;
+      border-radius: 15px;
+      max-width: 1340px;
+      width: 90%;
+      margin: 2em;
+      background-color: $color_background_nav;
+      bottom: 820px;
+      & input {
+        width: 95%;
+        margin: auto;
+        padding: 0.2em;
+      }
+    }
+  }
 }

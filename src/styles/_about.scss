@@ -1,5 +1,5 @@
 .about_main_container {
-    border: dashed red 2px;
+  //  border: dashed red 2px;
     @include vertical_center;
     margin: 100px auto 0px auto;
     max-width: 900px;
@@ -17,6 +17,7 @@
     }
     & img {
         background-image: url("../assets/images/body-background.jpg");
+        max-width: 200px;
     }
     
 }
