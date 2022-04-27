@@ -11,3 +11,15 @@
     -webkit-box-shadow: 4px -10px 49px 5px #EBEBEB; 
     box-shadow: 4px -10px 49px 5px #EBEBEB
 }
+
+//media queries****************************************************************************
+@mixin mobile_max_440 {
+    @media screen and(max-width:440px) {
+        @content;
+    }
+}
+@mixin mobile_max_680 {
+    @media screen and(max-width:680px) {
+        @content;
+    }
+}

@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 0.5em;
-    margin: 10px auto;
+    row-gap: 0.2em;
+    margin: 1px auto;
     background-color: white;
    // border: solid 1px black;
     @include box_shadow_black;
@@ -15,12 +15,13 @@
         position: absolute;
         background-color: $color_background_nav ;
         @include box_shadow_black;
-       // margin-top: 50px;
+        margin-top: 50px;
         opacity: 0;
-     //   border: solid 1px black;
         border-radius: 15px;
         color: $color_text;
-        padding: 1.5em;
+        padding: 1em;
+        border: solid white 2px;
+        cursor: pointer;
        
     & h2 {
         font-size: 1em;
@@ -33,7 +34,7 @@
 }
 .card_hover_information_card:hover {
     animation: cardAnimation 1.5s forwards ;
-       
+    transform: scale(1.2);
    
 }
 @keyframes cardAnimation {

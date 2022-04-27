@@ -10,7 +10,9 @@ const Home = () => {
       <Navigation />
       <main className="home_main_container">
         <div>
-          <h1 className="home_h1">ACCUEIL</h1>
+          <h1 className="home_h1">
+            Glisser la souris sur les cartes pour voir les infos pays
+          </h1>
           {/**    <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel
             repudiandae minus saepe eaque reiciendis illo quidem repellendus?

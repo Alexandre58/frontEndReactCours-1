@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+const radiosButton = ["Afrique", "Amérique", "Asie", "Europe", "Océanie"];
 
 const About = () => {
   return (
