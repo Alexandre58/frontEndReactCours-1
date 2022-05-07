@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 const radiosButton = ["Afrique", "Amérique", "Asie", "Europe", "Océanie"];
 
@@ -35,8 +36,12 @@ const About = () => {
             doloremque ex culpa, iure nostrum veritatis expedita aliquam id
             aspernatur nam rem ipsam beatae in sit omnis totam.{" "}
           </p>
+          <p className="about_p">
+            <em>Thierry ALEXANDRE</em>
+          </p>
         </div>
       </main>
+      <Footer />
     </>
   );
 };

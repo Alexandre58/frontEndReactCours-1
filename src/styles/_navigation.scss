@@ -19,7 +19,20 @@
        list-style-type: none;
        color: $color_text;
     //   border: dashed rgb(241, 241, 233) 1px;
-       
+    @include mobile_max_980 {
+      font-size: 0.8em;
+      
+
+    }
+    @include mobile_max_680 {
+      font-size: 0.7em;
+      
+    }
+
+    @include mobile_max_440 {
+      font-size: 0.6em;
+      
+    }
    
        .li_navigation {
          display: flex;

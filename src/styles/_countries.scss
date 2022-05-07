@@ -2,7 +2,7 @@
   // border: dashed black 2px;
   max-width: 1300px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 30px;
   & h1 {
     color: $color_text;
     text-shadow: 0px 0px 20px #050201;
@@ -14,11 +14,11 @@
   }
   .countries_radios {
     z-index: 100;
-    position: fixed;
+  //  position: fixed;
     display: flex;
     justify-content: space-around;
     max-width: 1340px;
-    width: 80%;
+    width: 100%;
     left: 5em;
     bottom: 800px;
     background-color: $color_background_nav;
@@ -27,17 +27,20 @@
     border-radius: 15px;
     padding: 0.5em;
     @include mobile_max_680 {
-      bottom: 790px;
+      bottom: 710px;
       padding: 0.2em;
       left: 3em;
     }
     @include mobile_max_440 {
-      bottom: 720px;
+      bottom: 750px;
       left: 2em;
       padding: 0.2em;
     }
     & li {
       padding: 0 1em 0 0;
+      @include mobile_max_440 {
+        padding: 0;
+      }
     }
     & li:hover {
       //   transform: scale(1);
@@ -80,24 +83,26 @@
       row-gap: 2em;
       column-gap: 1em;
       flex-wrap: wrap;
+      margin-top: 20px;
+      margin-bottom: 100px;
     }
     .checkedRadio_container {
       // border: 1px dashed black;
       z-index: 100;
-      position: fixed;
+     // position: fixed;
       border-radius: 15px;
       max-width: 1340px;
-      width: 80%;
+      width: 100%;
       left: 5em;
       @include box_shadow_black;
       background-color: $color_background_nav;
-      bottom: 850px;
+      bottom: 770px;
       @include mobile_max_680 {
-        bottom: 850px;
+        bottom: 770px;
         left: 3em;
       }
       @include mobile_max_440 {
-        bottom: 800px;
+        bottom: 720px;
         left: 2em;
       }
       & input {

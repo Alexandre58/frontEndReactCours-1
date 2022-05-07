@@ -1,4 +1,12 @@
+# open with terminal and npm start
+
 # Getting Started with Create React App
+
+## Thierry ALEXANDRE
+
+## Projet React Cours
+
+## npm install sur ce projet
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

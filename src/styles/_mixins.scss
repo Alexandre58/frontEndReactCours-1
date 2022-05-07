@@ -12,14 +12,19 @@
     box-shadow: 4px -10px 49px 5px #EBEBEB
 }
 
-//media queries****************************************************************************
-@mixin mobile_max_440 {
-    @media screen and(max-width:440px) {
+//media queries****************************************************************************/
+@mixin mobile_max_980 {
+    @media screen and(max-width:980px) {
         @content;
     }
 }
 @mixin mobile_max_680 {
     @media screen and(max-width:680px) {
+        @content;
+    }
+}
+@mixin mobile_max_440 {
+    @media screen and(max-width:440px) {
         @content;
     }
 }
